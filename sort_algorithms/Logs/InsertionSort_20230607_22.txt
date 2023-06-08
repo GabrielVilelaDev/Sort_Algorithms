@@ -1,0 +1,210 @@
+Tempo de execução: 0,0719,
+Número de comparações: 27,
+Número de trocas: 180;
+
+
+
+
+Tempo de execução: 0,0051,
+Número de comparações: 27,
+Número de trocas: 205;
+
+
+
+
+Tempo de execução: 0,0041,
+Número de comparações: 27,
+Número de trocas: 228;
+
+
+
+
+Tempo de execução: 0,0035,
+Número de comparações: 27,
+Número de trocas: 178;
+
+
+
+
+Tempo de execução: 0,0038,
+Número de comparações: 27,
+Número de trocas: 209;
+
+
+
+
+Tempo de execução: 0,0037,
+Número de comparações: 27,
+Número de trocas: 198;
+
+
+
+
+Tempo de execução: 0,004,
+Número de comparações: 27,
+Número de trocas: 199;
+
+
+
+
+Tempo de execução: 0,005,
+Número de comparações: 27,
+Número de trocas: 235;
+
+
+
+
+Tempo de execução: 0,0048,
+Número de comparações: 27,
+Número de trocas: 193;
+
+
+
+
+Tempo de execução: 0,0048,
+Número de comparações: 27,
+Número de trocas: 220;
+
+
+
+
+Tempo de execução: 0,0046,
+Número de comparações: 27,
+Número de trocas: 164;
+
+
+
+
+Tempo de execução: 0,0049,
+Número de comparações: 27,
+Número de trocas: 215;
+
+
+
+
+Tempo de execução: 0,0052,
+Número de comparações: 27,
+Número de trocas: 226;
+
+
+
+
+Tempo de execução: 0,0041,
+Número de comparações: 27,
+Número de trocas: 135;
+
+
+
+
+Tempo de execução: 0,0048,
+Número de comparações: 27,
+Número de trocas: 197;
+
+
+
+
+Tempo de execução: 0,0048,
+Número de comparações: 27,
+Número de trocas: 199;
+
+
+
+
+Tempo de execução: 0,0043,
+Número de comparações: 27,
+Número de trocas: 177;
+
+
+
+
+Tempo de execução: 0,0048,
+Número de comparações: 27,
+Número de trocas: 174;
+
+
+
+
+Tempo de execução: 0,0043,
+Número de comparações: 27,
+Número de trocas: 148;
+
+
+
+
+Tempo de execução: 0,0083,
+Número de comparações: 27,
+Número de trocas: 246;
+
+
+
+
+Tempo de execução: 0,0031,
+Número de comparações: 27,
+Número de trocas: 131;
+
+
+
+
+Tempo de execução: 0,0039,
+Número de comparações: 27,
+Número de trocas: 213;
+
+
+
+
+Tempo de execução: 0,0048,
+Número de comparações: 27,
+Número de trocas: 197;
+
+
+
+
+Tempo de execução: 0,0036,
+Número de comparações: 27,
+Número de trocas: 164;
+
+
+
+
+Tempo de execução: 0,0039,
+Número de comparações: 27,
+Número de trocas: 192;
+
+
+
+
+Tempo de execução: 0,0042,
+Número de comparações: 27,
+Número de trocas: 140;
+
+
+
+
+Tempo de execução: 0,004,
+Número de comparações: 27,
+Número de trocas: 214;
+
+
+
+
+Tempo de execução: 0,0039,
+Número de comparações: 27,
+Número de trocas: 186;
+
+
+
+
+Tempo de execução: 0,0904,
+Número de comparações: 27,
+Número de trocas: 149;
+
+
+
+
+Tempo de execução: 0,0036,
+Número de comparações: 27,
+Número de trocas: 171;
+
+
+
+
