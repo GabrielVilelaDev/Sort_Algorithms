@@ -13,3 +13,6 @@ Services.Sort(TotalInputSimulation, inputLength, selecSort);
 QuickSort quickSort = new QuickSort();
 Services.Sort(TotalInputSimulation, inputLength, quickSort);
 
+MergeSort mergeSort = new MergeSort();
+Services.Sort(TotalInputSimulation, inputLength, mergeSort);
+

@@ -33,10 +33,8 @@ public class QuickSort : ISort
         {
             int pivotIndex = Partition(array, low, high);
 
-            // Recursivamente ordena os elementos menores que o pivô
             Quicksort(array, low, pivotIndex - 1);
 
-            // Recursivamente ordena os elementos maiores que o pivô
             Quicksort(array, pivotIndex + 1, high);
         }
     }
@@ -47,7 +45,7 @@ public class QuickSort : ISort
 
         for (int j = low; j <= high - 1; j++)
         {
-            comparisonCount++; // Contabiliza a comparação
+            comparisonCount++;
 
             if (array[j] < pivot)
             {
