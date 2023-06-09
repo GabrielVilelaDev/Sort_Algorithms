@@ -2,6 +2,6 @@
 {
     public interface ISort
     {
-        List<int> Sort(List<int> numbersList);
+        List<long> Sort(List<long> numbersList);
     }
 }

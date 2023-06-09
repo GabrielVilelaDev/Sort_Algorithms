@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace sort_algorithms.Algoritmos
 {
-    public class InsertionSort : ISort
+    public class SelectionSort : ISort
     {
         public List<long> Sort(List<long> numbersList)
         {
@@ -18,19 +18,24 @@ namespace sort_algorithms.Algoritmos
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
 
-            for (int i = 1; i < numbersList.Count(); i++)
+            for (int i = 0; i < numbersList.Count - 1; i++)
             {
-                long key = numbersList[i];
-                int j = i - 1;
-                comparisons++;
-
-                while (j >= 0 && numbersList[j] > key)
+                int minIndex = i;
+                for (int j = i + 1; j < numbersList.Count; j++)
                 {
-                    numbersList[j + 1] = numbersList[j];
-                    j = j - 1;
+                    comparisons++;
+                    if (numbersList[j] < numbersList[minIndex])
+                    {
+                        minIndex = j;
+                    }
+                }
+                if (minIndex != i)
+                {
+                    long temp = numbersList[i];
+                    numbersList[i] = numbersList[minIndex];
+                    numbersList[minIndex] = temp;
                     swaps++;
                 }
-                numbersList[j + 1] = key;
             }
 
             stopwatch.Stop();

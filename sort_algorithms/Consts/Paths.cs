@@ -8,6 +8,6 @@ namespace sort_algorithms.Consts
 {
     public static class Paths
     {
-        public static string DirLogs = "C:\\Users\\gabri\\Desktop\\Faculdade\\PAA\\sort_algorithms\\sort_algorithms\\Logs";
+        public static string DirLogs = "C:\\Users\\gabri\\Desktop\\Faculdade\\PAA\\PAA_SORT\\sort_algorithms\\Logs";
     }
 }

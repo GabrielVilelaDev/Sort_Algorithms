@@ -1,12 +1,15 @@
 ﻿using sort_algorithms.Algoritmos;
 using sort_algorithms.Services;
 
-int TotalInputSimulation = 30;
-int inputLength = 30;
-var rand = new Random();
+long TotalInputSimulation = 30;
+long inputLength = 2;
 
-for (int i = 0; i < TotalInputSimulation; i++)
-{
-    InsertionSort insSort = new InsertionSort();
-    List<int> testSorted = insSort.Sort(Services.GenerateRandomListNumbers(2 ^ inputLength));
-}
+InsertionSort insSort = new InsertionSort();
+Services.Sort(TotalInputSimulation, inputLength, insSort);
+
+SelectionSort selecSort = new SelectionSort();
+Services.Sort(TotalInputSimulation, inputLength, selecSort);
+
+QuickSort quickSort = new QuickSort();
+Services.Sort(TotalInputSimulation, inputLength, quickSort);
+
