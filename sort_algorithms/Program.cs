@@ -2,7 +2,7 @@
 using sort_algorithms.Services;
 
 long TotalInputSimulation = 30;
-long inputLength = 2;
+List<long> inputLength = new List<long>(){100,1000,10000,100000};
 
 InsertionSort insSort = new InsertionSort();
 Services.Sort(TotalInputSimulation, inputLength, insSort);

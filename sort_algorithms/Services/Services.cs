@@ -30,16 +30,15 @@ namespace sort_algorithms.Services
             }
             return returnElements;
         }
-        public static List<long> Sort(long TotalInputSimulation, long inputLength, ISort sortAlgorithm)
+        public static List<long> Sort(long TotalInputSimulation, List<long> inputLength, ISort sortAlgorithm)
         {
             List<long> sorted = new List<long>();
-            for (int i = 0; i < TotalInputSimulation; i++)
+            for (int i = 0; i < inputLength.Count; i++)
             {
                 for (int j = 0; j < TotalInputSimulation; j++)
                 {
-                    sorted = sortAlgorithm.Sort(GenerateRandomListNumbers(inputLength * 2)); 
+                    sorted = sortAlgorithm.Sort(GenerateRandomListNumbers(inputLength[i])); 
                 }
-                inputLength *= 2;
             }
             return sorted;
         }
