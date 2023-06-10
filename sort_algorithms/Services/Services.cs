@@ -37,9 +37,9 @@ namespace sort_algorithms.Services
             {
                 for (int j = 0; j < TotalInputSimulation; j++)
                 {
-                    sorted = sortAlgorithm.Sort(GenerateRandomListNumbers(inputLength + 10)); 
+                    sorted = sortAlgorithm.Sort(GenerateRandomListNumbers(inputLength * 2)); 
                 }
-                inputLength += 10;
+                inputLength *= 2;
             }
             return sorted;
         }

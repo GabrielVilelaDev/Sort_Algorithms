@@ -16,3 +16,8 @@ Services.Sort(TotalInputSimulation, inputLength, quickSort);
 MergeSort mergeSort = new MergeSort();
 Services.Sort(TotalInputSimulation, inputLength, mergeSort);
 
+HeapSort heapSort = new HeapSort();
+Services.Sort(TotalInputSimulation, inputLength, heapSort);
+
+ShellSort shellSort = new ShellSort();
+Services.Sort(TotalInputSimulation, inputLength, shellSort);
